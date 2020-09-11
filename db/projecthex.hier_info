@@ -1,0 +1,28 @@
+|projecthex
+HEX0[0] << SEG_HEX:u1.oHEX_D
+HEX0[1] << SEG_HEX:u1.oHEX_D
+HEX0[2] << SEG_HEX:u1.oHEX_D
+HEX0[3] << SEG_HEX:u1.oHEX_D
+HEX0[4] << SEG_HEX:u1.oHEX_D
+HEX0[5] << SEG_HEX:u1.oHEX_D
+HEX0[6] << SEG_HEX:u1.oHEX_D
+number[0] => _.IN1
+number[1] => _.IN1
+number[2] => _.IN1
+number[3] => _.IN1
+
+
+|projecthex|SEG_HEX:u1
+iDIG[0] => Decoder0.IN3
+iDIG[1] => Decoder0.IN2
+iDIG[2] => Decoder0.IN1
+iDIG[3] => Decoder0.IN0
+oHEX_D[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+oHEX_D[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+oHEX_D[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+oHEX_D[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+oHEX_D[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+oHEX_D[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+oHEX_D[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
